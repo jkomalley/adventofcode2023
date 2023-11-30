@@ -1,2 +1,2 @@
 # Day 0 Solution
-<Put Description Here>
+Solution description blah blah blah...
