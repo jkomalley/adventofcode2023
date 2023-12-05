@@ -27,8 +27,6 @@ def getCardValues(data: list[str]) -> list[int]:
         print(f"{val = }")
         ret.append(val)
 
-
-
     return ret
 
 

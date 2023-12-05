@@ -18,7 +18,7 @@ def getCardValues(data: list[str]) -> list[int]:
         # parse line for winning nums and my numbers. Store in set objects
         _, line = line.split(": ")
         winningNumbers, myNumbers = line.split(" | ")
-        
+
         winningNumbers = set([int(n) for n in winningNumbers.split()])
         myNumbers = set([int(n) for n in myNumbers.split()])
 
