@@ -14,7 +14,7 @@ def getSeeds(data: str) -> list[int]:
 
 
 def mapChunks(map: list[int], size: int):
-    return (map[pos:pos + size] for pos in range(0, len(map), size))
+    return (map[pos : pos + size] for pos in range(0, len(map), size))
 
 
 def getMappings(data: str) -> list[tuple[tuple[int, int, int]]]:
@@ -34,10 +34,12 @@ def getMappings(data: str) -> list[tuple[tuple[int, int, int]]]:
     return ret
 
 
-def getLocationsFromMappings(seeds: list[int], mappings: list[tuple[tuple[int, int, int]]]) -> list[int]:
+def getLocationsFromMappings(
+    seeds: list[int], mappings: list[tuple[tuple[int, int, int]]]
+) -> list[int]:
     ret = []
 
-    #for each seed
+    # for each seed
     #   for each mapping set
     #       for each mapping
     #           check if the current seed is in the source range

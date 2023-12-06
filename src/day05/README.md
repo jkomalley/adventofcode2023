@@ -106,4 +106,4 @@ What is the lowest location number that corresponds to any of the initial seed n
 
 To begin, get your puzzle input.
 
-Answer: 240320250
+Answer: """240320250"""
