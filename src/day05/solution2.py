@@ -77,7 +77,7 @@ def getLocationsFromMappings(
 @click.command()
 @click.option("-i", "--input", required=True, type=click.File("r"))
 def main(input):
-    print("Advent of Code Day 1")
+    print("Advent of Code Day 5")
 
     data = input.read()
     input.close()
